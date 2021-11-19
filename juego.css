@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: rgb(227, 250, 204);
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+  margin-top: 30px;
+}
+.juego{
+  margin: 10%;
+}
+.litchis{
+  margin: 2%;
+  display: block;
+  
+}
+.juego-image{
+  display: flex;
+  float: left;
+
+}
+.juego-image img{
+  width: 1000px;
+  height: auto;
+}
+  h1{
+    text-align: center;
+    margin:10%;
+    color: black;
+  } 
+h2{
+  margin: 4%;
+  margin-top: 10%;
+  text-align: center;
+  color: black;
+
+}
+.juego-body{
+  display: flex;
+  
+  width: 450px;
+  height: 200%;
+  color: black;
+  font-size: 20pt;
+  line-height : 55px;
+  text-align: right;
+}
+.mision{
+  padding: 10%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.slide-container {
+  margin: auto;
+
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+ 
+}
+
+
+
+.clash-card {
+  background: white;
+  width: 600px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px ;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.clash-card__image {
+  position: relative;
+  height: 430px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.clash-card__image--barbarian {
+  background-color: rgb(134, 250, 153);
+
+}
+.clash-card__image--barbarian img {
+  width: 240px;
+
+  position: absolute;    
+  top: -85px;
+  left: 190px;
+}
+.clash-card__image--archer {
+background: rgba(245,188,219,1);
+  
+}
+.clash-card__image--archer img {
+  width: 240px;
+  position: absolute;    
+  top: -84px;
+  left: 170px;
+}
+.clash-card__image--giant {
+ background: rgba(255,255,171,1);
+ 
+}
+.clash-card__image--giant img {
+  width: 250px;
+  position: absolute;    
+  top: -87px;
+  left: 175px;
+}
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+.clash-card__unit-stats--barbarian {
+  background: #ffff74;
+  
+ 
+}
+.clash-card__unit-stats--barbarian .one-third {
+  border-right: 1px 
+}
+.clash-card__unit-stats--archer {
+  background: #6700ea;
+  
+
+}
+.clash-card__unit-stats--archer .one-third {
+  border-right: 1px 
+}
+.clash-card__unit-stats--giant {
+  background:  #ff78ff;
+  
+
+}
+.clash-card__unit-stats--giant .one-third {
+  border-right: 1px;
+}

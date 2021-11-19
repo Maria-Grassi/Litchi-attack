@@ -1,0 +1,80 @@
+body{
+    display: block;
+    background-color: rgb(245, 244, 189);
+}
+.mensaje-image-port{
+margin: auto;
+align-items: center;
+padding-left:  10%;
+padding-right: 10%;
+margin-bottom: 2%;
+}
+.mensaje-image-port img{
+    margin-left: auto;
+    margin-right: auto;
+}
+#mensajitos{
+    display: block;
+    float: left;
+    
+}
+#mensajes{
+    border-color: blue;
+    border-width: 1px;
+    background-color: rgb(233, 211, 247);
+    width: 30%;
+    height: auto;
+    margin: 1.4%;
+    margin-top:0;
+    padding: 1%;
+    border-radius: 3%;
+    float: left;
+    color: rgb(20, 20, 20);
+    
+}
+#mensajes #descripcion{
+    display: block;
+    color: rgb(20, 20, 20);
+}
+#mensajes #descripcion #perfil{
+    float: left;
+    margin: 2px;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+}
+#mensajes #descripcion .nombre{
+    float: left;
+    padding-left: 2% ;
+    padding-top:10% ;
+    font-size: 15pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#mensajes #mensaje{
+    display: inline-block;
+    padding: 2%;
+    font-size: 13pt;
+}
+
+#galeria{
+    margin: 20px;
+}
+.collage img{
+    width: auto;
+    height: 20%;
+}
+@media screen and (max-width:1500px) {
+    #mensajes{
+       width:  45%;
+       height: auto;
+  
+    }
+}
+@media screen and (max-width:800px) {
+    #mensajes{
+        width:  90%;
+        height: auto;
+margin-left: 5%;
+margin-right: 5%;
+     }
+}
